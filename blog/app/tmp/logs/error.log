@@ -1,0 +1,276 @@
+2013-02-11 18:47:20 Error: [MissingViewException] View file "/var/www/dev.cheekit.com/public_html/blog/app/View/Posts/index.ctp" is missing.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(473): View->_getViewFileName(NULL)
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-11 21:21:42 Error: [MissingActionException] Action PostsController::posts() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 21:21:47 Error: [MissingActionException] Action PostsController::posts() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 21:23:06 Error: [MissingActionException] Action PostsController::posts() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 21:24:59 Error: [MissingActionException] Action PostsController::posts() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 21:25:01 Error: [MissingActionException] Action PostsController::add() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 21:25:05 Error: [MissingActionException] Action PostsController::posts() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 22:02:23 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php, line 23]
+2013-02-11 22:02:23 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/dev.ch...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/dev.ch...', 23, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/dev.ch...', 23, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 22:04:38 Error: Fatal Error (1): Call to a member function setFlash() on a non-object in [/var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php, line 23]
+2013-02-11 22:04:38 Error: [FatalErrorException] Call to a member function setFlash() on a non-object
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/dev.ch...', 23)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/dev.ch...', 23, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/dev.ch...', 23, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 22:16:55 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/dev.cheekit.com/public_html/blog/app/Model/Post.php, line 6]
+2013-02-11 22:16:55 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 6, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 6, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 22:17:03 Error: Fatal Error (4): syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')' in [/var/www/dev.cheekit.com/public_html/blog/app/Model/Post.php, line 6]
+2013-02-11 22:17:03 Error: [FatalErrorException] syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ')'
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 6)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 6, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 6, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 22:45:47 Error: [CakeException] Method id does not exist
+#0 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->__call('id', Array)
+#1 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->id('get')
+#2 [internal function]: PostsController->edit('8')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-02-11 22:45:52 Error: [CakeException] Method id does not exist
+#0 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->__call('id', Array)
+#1 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->id('get')
+#2 [internal function]: PostsController->edit('9')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-02-11 22:45:59 Error: [CakeException] Method id does not exist
+#0 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->__call('id', Array)
+#1 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->id('get')
+#2 [internal function]: PostsController->edit('7')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-02-11 22:49:53 Error: [CakeException] Method id does not exist
+#0 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->__call('id', Array)
+#1 /var/www/dev.cheekit.com/public_html/blog/app/Controller/PostsController.php(33): CakeRequest->id('get')
+#2 [internal function]: PostsController->edit('9')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PostsController), Array)
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#6 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#7 {main}
+2013-02-11 23:18:32 Error: Fatal Error (4): syntax error, unexpected ';' in [/var/www/dev.cheekit.com/public_html/blog/app/View/Posts/index.ctp, line 14]
+2013-02-11 23:18:32 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 14)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 14, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 14, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-11 23:26:34 Error: [MissingActionException] Action PostsController::delete9() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 23:26:38 Error: [MissingActionException] Action PostsController::delete9() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 23:31:16 Error: [MissingActionException] Action PostsController::delete9() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 23:31:23 Error: [MissingActionException] Action PostsController::delete4() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 23:32:08 Error: [MissingActionException] Action PostsController::delete9() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 23:32:13 Error: [MissingActionException] Action PostsController::delete9() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-11 23:32:27 Error: [MissingActionException] Action PostsController::delete9() could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-12 00:43:44 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:45:13 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:45:15 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:45:26 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:48:12 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:48:17 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:51:15 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 00:51:19 Error: [MissingHelperException] Helper class FromHelper could not be found.
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('From')
+#1 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(815): HelperCollection->__isset('From')
+#2 /var/www/dev.cheekit.com/public_html/blog/app/View/Posts/view.ctp(12): View->__get('From')
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(923): include('/var/www/dev.ch...')
+#4 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(886): View->_evaluate('/var/www/dev.ch...', Array)
+#5 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/View/View.php(476): View->_render('/var/www/dev.ch...')
+#6 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#7 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#9 /var/www/dev.cheekit.com/public_html/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2013-02-12 01:06:16 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/dev.cheekit.com/public_html/blog/app/Controller/CommentsController.php, line 32]
+2013-02-12 01:06:16 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-12 01:06:21 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/dev.cheekit.com/public_html/blog/app/Controller/CommentsController.php, line 32]
+2013-02-12 01:06:21 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-12 01:12:53 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/dev.cheekit.com/public_html/blog/app/Controller/CommentsController.php, line 32]
+2013-02-12 01:12:53 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-12 01:13:03 Error: Fatal Error (4): syntax error, unexpected '*', expecting T_FUNCTION in [/var/www/dev.cheekit.com/public_html/blog/app/Controller/CommentsController.php, line 32]
+2013-02-12 01:13:03 Error: [FatalErrorException] syntax error, unexpected '*', expecting T_FUNCTION
+#0 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/dev.ch...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#2 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/dev.ch...', 32, Array)
+#3 /var/www/dev.cheekit.com/public_html/blog/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
